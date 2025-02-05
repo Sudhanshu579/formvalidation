@@ -1,0 +1,134 @@
+*{
+    margin:0px auto;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    background: #000;
+    display: grid;
+    place-items: center;
+    height:100vh;
+    font-family: "roboto",sans-serif;
+}
+
+.wrapper{
+    max-width: 600px;
+    background: #272727;
+    padding: 30px;
+    width: 100%;
+    border-radius: 10px;
+    color:#fff;
+}
+
+form .form_group{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 15px;
+}
+
+.form-control{
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.form-control input, .form-control textarea{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 15px;
+    border: 0px;
+    background: #000;
+    border-radius: 10px;
+    color:#fff;
+}
+
+.form_heading{
+    margin:15px 10px;
+    color:#ff7070;
+}
+.form_heading p{
+    color:#848484;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin: 10px 0px;
+}
+
+.form-control input[type=submit]{
+    width: auto;
+    padding: 10px 60px;
+    background: #ff7070;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #000;
+}
+
+.box{
+    background: red;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.box2{
+    background: green;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+.box i{
+    margin-right:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
